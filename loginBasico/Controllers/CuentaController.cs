@@ -22,6 +22,7 @@ namespace loginBasico.Controllers
             {
                 return RedirectToAction("Index", "Home");
                 Console.WriteLine("funciona");
+                Console.WriteLine("Swgundo cambio");
             }
             else
             {
