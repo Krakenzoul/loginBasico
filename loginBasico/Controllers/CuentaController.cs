@@ -27,7 +27,7 @@ namespace loginBasico.Controllers
             else
             {
                 ViewBag.ErrorMessage = "Usuario o contraseña incorrectos. Inténtalo de nuevo.";
-                return View(); 
+                return RedirectToAction("Index", "Home");
             }
 
         }
